@@ -53,6 +53,8 @@ hr {
 }
 
 .contenedor {
+  position: relative;
+
   width: 40%;
   font-size: 100%;
   
@@ -96,31 +98,25 @@ hr {
   color: white;
 }
 
-/* AGRANDAR EL  CONTENEDOR DEL BLOQUE */
-.contenedor .subcontenedor {
-  min-height: 65vh;
-  position: relative;
-  /* background-color: green;  */
-}
-
 
 /* AGRANDAR EL BLOQUE */
 .contenedor .bloque {
+  position: absolute;
   width: 95%;
   margin-top: 1em;
   margin-left: 1em;
-  position: absolute;
   color: var(--negro);
-  transition: all 0.4s ease;
+
   background-color: var(--blanco); 
   opacity: 0;
-  transform: translateY(-150%);
-  transition: all 0.5s ease;
+  transform: translateY(-180%);
+  transition: all 0.5s ease-in-out;
   /* background-color: red; */
   
 }
 
 .contenedor .bloque.activo {
+  position: relative;
   opacity: 1;
   transform: translateY(0%);
 }
@@ -128,11 +124,7 @@ hr {
 
 
 /* FORMULARIO */
-form {
-	max-width: 980px;
-	margin: 0 auto;
-  
-}
+
 
 .content {
   /* background-color: orange; */
@@ -274,12 +266,11 @@ input[type="checkbox"]:checked:disabled + label:before {
  }
  
  .contenedor2{
+  position: relative;
   width: 40%;
-  height: 80vh;
-  margin-bottom: 20px;
   font-size: 100%;
   margin-top: 2em;
-  margin-left: 4em;
+
   margin-right: 3em;
   padding: 1em;
   float: right;
@@ -293,12 +284,13 @@ input[type="checkbox"]:checked:disabled + label:before {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
  }
 
 
  #demo{
-  width: 80%;
-  height: 25em;
+  width: 95%;
+  height: 60vh;
   background-color: white;
   color: black;
   border-radius: 5px;
@@ -338,115 +330,21 @@ td {
   border-bottom: 1px gray solid;
 }
 
-@media (max-width: 1510px) {
 
-}
-
-
-
-
-
-@media (max-width: 1103px) {
-  .contenedor .subcontenedor {
-    min-height: 70vh;
-  
-  }
-}
-
-
-@media (max-width: 1027px) {
-  .contenedor .subcontenedor {
-  min-height: 72vh;
-  }
-}
-
-@media (max-width: 1024px) {
-  .contenedor .subcontenedor {
-  min-height: 77vh;
-  }
-}
-
-@media (max-width: 998px) {
-  .contenedor .subcontenedor {
-    min-height: 78vh;
-    
-  }
-}
-
-@media (max-width: 942px) {
-  .contenedor .subcontenedor {
-    min-height: 80vh;
-    
-  }
-}
 
 
 
 @media (max-width: 900px) {
   .contenedor{
-    width: 85%;
-    margin-left: 3.5em;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .contenedor2{
-    width: 85%;
-  
-  }
-  .contenedor .subcontenedor {
-    min-height: 55vh;
-  }
-}
-
-@media (max-width: 880px) {
-
-  .contenedor .subcontenedor {
-    min-height: 59vh;
-    
-  }
-}
-
-
-@media (max-width: 860px) {
-  .contenedor .subcontenedor {
-    min-height: 65vh;
-  }
-}
-@media (max-width: 620px) {
-  .contenedor .subcontenedor {
-    min-height: 68vh;
-  
-  }
-}
-
-@media (max-width: 615px) {
-  .contenedor .subcontenedor {
-    min-height: 70vh;
-  }
-}
-
-
-@media (max-width: 610px) {
-  .contenedor .subcontenedor {
-    min-height: 72vh;
-  }
-}
-
-@media (max-width: 600px) {
-    .contenedor .subcontenedor {
-      min-height: 80vh;
-    }
-}
-
-
-@media (max-width: 650px) {
-
-  .contenedor .bloque {
-  width: 90%;
-  }
-
-  .content {
-   /* background-color: orange; */
-    width: 90%;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
 }
