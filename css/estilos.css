@@ -354,14 +354,16 @@ td {
 @media (max-width: 400px) {
   .contenedor{
     width: 95%;
-    margin: 10px;
+    margin: 15px;
+ 
   }
 
   .contenedor2{
     width: 95%;
-    margin: 10px;
-  
-  
+    
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: -2px;
   }
 
 
@@ -385,9 +387,8 @@ td {
   }
   
   .contenedor .li {
-   
     padding: 0.6em;
-    margin: 0 1em 0 0;
+    margin: 0 1em 0.4em 0;
     
   }
 
