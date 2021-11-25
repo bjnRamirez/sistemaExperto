@@ -406,17 +406,18 @@ td {
 }
 
 
-@media (max-width: 350px) {
+@media (max-width: 600px) {
   input[type="checkbox"]:checked#sintoma16 + label {
     background: #c1eec2;
     padding: 0.25em 0.5em;
     border-radius: 10px;
   }
-  
-}
+  input[type="checkbox"]:checked#sintoma21 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
 
-
-@media (max-width: 332px) {
   input[type="checkbox"]:checked#sintoma24 + label {
     background: #c1eec2;
     padding: 0.25em 0.5em;
@@ -426,7 +427,7 @@ td {
 }
 
 
-@media (max-width: 288px) {
+@media (max-width: 320px) {
   
   input[type="checkbox"]:checked#sintoma3 + label {
     background: #c1eec2;
@@ -489,11 +490,7 @@ td {
     padding: 0.25em 0.5em;
     border-radius: 10px;
   }
-  input[type="checkbox"]:checked#sintoma21 + label {
-    background: #c1eec2;
-    padding: 0.25em 0.5em;
-    border-radius: 10px;
-  }
+
 
   input[type="checkbox"]:checked#sintoma26+ label {
     background: #c1eec2;
