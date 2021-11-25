@@ -9,16 +9,33 @@ var tabla = document.getElementById('tabla');
 
  
 let valor_sintoma =[
-//   1s  2s  3s  4s  5s  6s  7s  8s  9s  10s  11s  12s  13s  14s  15s  16s  17s  18s  19s  20s  21s  22s  23s  24s  25s  26s  27s  28s  29s  30s  31s
-/*1*/[3, 1,  1,  0,  0,  0,  1,  0,  0,   1,   2,   0,   0,   0,   3,   3,   2,   0,   0,   0,   0,   0,   0,   0,   0,   0,   1,   1,   0,   0,   0], 
-/*2*/[3, 3,  1,  0,  0,  0,  0,  0,  0,   2,   0,   3,   2,   0,   0,   0,   0,   0,   0,   0,   2,   0,   1,   2,   3,   1,   0,   2,   0,   0,   0],
-/*3*/[3, 1,  0,  0,  0,  0,  0,  0,  0,   1,   0,   1,   0,   0,   1,   0,   0,   1,   2,   0,   3,   2,   2,   0,   0,   2,   0,   0,   0,   0,   0],
-/*4*/[2, 0,  2,  0,  0,  0,  0,  3,  0,   0,   0,   0,   0,   2,   1,   1,   0,   0,   0,   3,   0,   0,   0,   0,   0,   0,   2,   1,   2,   0,   3],
-/*5*/[3, 1,  2,  2,  0,  0,  1,  0,  0,   2,   0,   2,   0,   2,   1,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   1,   1,   3,   3,   0],
-/*6*/[0, 0,  1,  3,  3,  2,  0,  0,  3,   2,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0]
+ //  *      cuerpo    *   *        piel        *    *           dolores                *    *  ojos   *    * nasales *    respiratorio  *  digestivo    *   urinario  
+//   1s  2s  3s  4s  5s  6s  7s  8s  9s  10s  11s  12s  13s  14s  15s  16s  17s  18s  19s  20s  21s  22s  23s  24s  25s  26s  27s  28s  29s  30s  31s  32s  33s
+/*1*/[3, 2,  1,  0,  0,  0,  2,  0,  0,   0,   2,   2,   2,   0,   0,   0,   3,   3,   3,   0,   0,   0,   0,   0,   0,   0,   0,   0,   1,   1,   0,   0,   0], 
+/*2*/[3, 3,  1,  2,  0,  0,  0,  0,  0,   0,   0,   2,   0,   2,   2,   0,   0,   0,   0,   0,   0,   0,   2,   0,   1,   3,   3,   3,   0,   2,   0,   0,   0],
+/*3*/[2, 1,  0,  0,  0,  0,  0,  0,  0,   0,   0,   1,   0,   1,   0,   0,   1,   0,   0,   1,   2,   0,   3,   2,   2,   0,   0,   2,   0,   0,   0,   0,   0],
+/*4*/[2, 0,  2,  1,  0,  0,  0,  3,  0,   0,   0,   0,   0,   0,   0,   2,   1,   0,   0,   0,   0,   3,   0,   0,   0,   0,   0,   0,   2,   1,   2,   0,   3],
+/*5*/[3, 1,  2,  2,  0,  0,  1,  0,  0,   0,   0,   2,   0,   2,   0,   2,   1,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   1,   1,   3,   3,   0],
+/*6*/[0, 0,  3,  3,  1,  2,  0,  0,  3,   0,   0,   1,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0]
  ]
+ 
 
- console.table(valor_sintoma)
+
+
+// let = valorrr=0;
+// let suma = 0;
+// for(let j in valor_sintoma){
+//     for(i=0; i<valor_sintoma[j].length; i++){
+//         valorrr = valor_sintoma[j][i]
+//         suma = suma + valorrr;
+//     }
+//     console.table(suma);
+//     suma=0;
+// }
+
+
+
+//  console.table(valor_sintoma)
 
 /* ************************************** PRIMERA VERSION  ************************** */
 /*
@@ -28,12 +45,12 @@ let valor_sintoma =[
 
 /* ************************************** SEGUNDA VERSION  ************************** */
 let enfermedades_valor = [
-    {Enfermedad : "Dengue",         Valor : 19},
-    {Enfermedad : "Neumonía",       Valor : 25},
-    {Enfermedad : "Resfriado Común",Valor : 19},
+    {Enfermedad : "Dengue",         Valor : 25},
+    {Enfermedad : "Neumonía",       Valor : 29},
+    {Enfermedad : "Resfriado Común",Valor : 18},
     {Enfermedad : "Hepatitis A",    Valor : 22},
     {Enfermedad : "Fiebre tifoidea",Valor : 24},
-    {Enfermedad : "Anemia",         Valor : 14}
+    {Enfermedad : "Anemia - Deficiencia de Hierro",         Valor : 13}
 ]
 
 

@@ -109,8 +109,8 @@ hr {
 
   background-color: var(--blanco); 
   opacity: 0;
-  transform: translateY(-180%);
-  transition: all 0.5s ease-in-out;
+  transform: translateX(-180%);
+  transition: all 0.4s ease;
   /* background-color: red; */
   
 }
@@ -118,7 +118,7 @@ hr {
 .contenedor .bloque.activo {
   position: relative;
   opacity: 1;
-  transform: translateY(0%);
+  transform: translateX(0%);
 }
 
 
@@ -336,9 +336,9 @@ td {
 
 @media (max-width: 900px) {
   .contenedor{
-    width: 95%;
-    margin-left: 7%;
-    margin-right: 7%;
+    width: 92%;
+    margin-left: 3%;
+    margin-right: 5%;
   }
 
   .contenedor2{
@@ -396,3 +396,108 @@ td {
 }
 
 
+@media (max-width: 1094px) {
+  input[type="checkbox"]:checked#sintoma22 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  
+}
+
+
+@media (max-width: 350px) {
+  input[type="checkbox"]:checked#sintoma16 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  
+}
+
+
+@media (max-width: 332px) {
+  input[type="checkbox"]:checked#sintoma24 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  
+}
+
+
+@media (max-width: 288px) {
+  
+  input[type="checkbox"]:checked#sintoma3 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma5 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma10 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma11 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma12 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+
+  input[type="checkbox"]:checked#sintoma13 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma14 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma15 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma16 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma17 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma18 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma20 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+  input[type="checkbox"]:checked#sintoma21 + label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+
+  input[type="checkbox"]:checked#sintoma26+ label {
+    background: #c1eec2;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+  }
+}
